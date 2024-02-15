@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
 
-  token: process.env.TOKEN || "MTIwNzY3MjgzMTIxNTY2OTMxOA.GUg-kB.7mY7I8rmbcC5YSQD-15F6vWrJWsnSdDYFWXUzw", // <==== PASTE YOU TOKEN
+  token: process.env.TOKEN || "", // <==== PASTE YOU TOKEN
   prefix: process.env.PREFIX || ".", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
   color: process.env.EMBED_COLOR || "#2f3136", // <==== YOU EMBEDED HEX COLOR
   owner: process.env.OWNER_ID || "1053871662283628615", // <==== BOTS OWNER ID
